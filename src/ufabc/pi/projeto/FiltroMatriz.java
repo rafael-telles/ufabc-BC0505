@@ -6,7 +6,7 @@ package ufabc.pi.projeto;
  *
  * Responsáveis: Rafael Telles e Leandro Mattos
  *
- * Data: 0/04/2015. (data da atualiação mais recente)
+ * Data: 0/04/2015. (data da atualização mais recente)
  */
 public class FiltroMatriz implements Filtro {
     double[][] matriz;

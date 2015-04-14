@@ -15,7 +15,7 @@ public class Utilidades {
      *
      * Responsáveis: Rafael Telles e Alexsandro Francisco
      *
-     * Data: 03/04/2015. (data da atualiação mais recente)
+     * Data: 03/04/2015. (data da atualização mais recente)
      */
 
     public static final int NUM_CANAIS = 3;

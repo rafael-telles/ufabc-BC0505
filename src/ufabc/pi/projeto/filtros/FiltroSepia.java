@@ -6,7 +6,7 @@ package ufabc.pi.projeto.filtros;
  *
  * Responsável: Leandro Mattos
  *
- * Data: 06/04/2015. (data da atualiação mais recente)
+ * Data: 06/04/2015. (data da atualização mais recente)
  */
 
 import ufabc.pi.projeto.Filtro;

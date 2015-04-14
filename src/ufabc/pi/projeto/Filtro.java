@@ -6,7 +6,7 @@ package ufabc.pi.projeto;
  *
  * Responsável: Rafael Telles
  *
- * Data: 02/04/2015. (data da atualiação mais recente)
+ * Data: 02/04/2015. (data da atualização mais recente)
  */
 public interface Filtro {
     public void aplicar(int[][][] pixels);

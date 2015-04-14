@@ -8,7 +8,7 @@ import ufabc.pi.projeto.FiltroMatriz;
  *
  * Responsável: Leandro Mattos
  *
- * Data: 05/04/2015. (data da atualiação mais recente)
+ * Data: 05/04/2015. (data da atualização mais recente)
  */
 public class FiltroAfiar extends FiltroMatriz {
     public FiltroAfiar() {

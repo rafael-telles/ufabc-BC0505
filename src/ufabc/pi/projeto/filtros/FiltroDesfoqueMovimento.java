@@ -8,7 +8,7 @@ import ufabc.pi.projeto.FiltroMatriz;
  *
  * Responsáveis: Alexsandro Francisco
  *
- * Data: 09/04/2015. (data da atualiação mais recente)
+ * Data: 09/04/2015. (data da atualização mais recente)
  */
 public class FiltroDesfoqueMovimento extends FiltroMatriz {
     public FiltroDesfoqueMovimento() {

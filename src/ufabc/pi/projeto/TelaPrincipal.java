@@ -21,7 +21,7 @@ import java.util.List;
  *
  * Responsáveis: Rafael Telles, Leandro Mattos e Alexsandro Francisco
  *
- * Data: 10/04/2015. (data da atualiação mais recente)
+ * Data: 10/04/2015. (data da atualização mais recente)
  */
 public class TelaPrincipal extends JFrame {
     private JPanel root;
