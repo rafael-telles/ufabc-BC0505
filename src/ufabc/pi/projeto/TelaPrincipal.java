@@ -4,6 +4,8 @@ import ufabc.pi.projeto.filtros.*;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -130,6 +132,7 @@ public class TelaPrincipal extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JFileChooser fileChooser = new JFileChooser();
+                fileChooser.setFileFilter(new FileNameExtensionFilter("Imagens (*.jpg, *.png, *.bmp)", "jpg", "png", "bmp"));
 
                 int opcao = fileChooser.showOpenDialog(TelaPrincipal.this);
                 if (opcao == JFileChooser.APPROVE_OPTION) {
@@ -151,6 +154,7 @@ public class TelaPrincipal extends JFrame {
                 int userSelection = fileChooser.showSaveDialog(TelaPrincipal.this);
                 if (userSelection == JFileChooser.APPROVE_OPTION) {
                     File arquivo = fileChooser.getSelectedFile();
+                    arquivo = new File(arquivo.getAbsoluteFile() + ".png");
                     try {
                         salvarImage(arquivo);
                     } catch (Exception ex) {

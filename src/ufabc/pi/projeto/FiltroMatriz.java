@@ -53,11 +53,7 @@ public class FiltroMatriz implements Filtro {
             }
         }
 
-        for (
-                int x = 0;
-                x < larguraImagem; x++)
-
-        {
+        for (int x = 0; x < larguraImagem; x++) {
             for (int y = 0; y < alturaImagem; y++) {
                 for (int c = 0; c < Utilidades.NUM_CANAIS; c++) {
                     pixels[x][y][c] = pixelsNovos[x][y][c];
